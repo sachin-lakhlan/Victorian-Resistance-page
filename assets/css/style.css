@@ -35,6 +35,10 @@
     border: none;
 }
 
+.pl-23 {
+    padding-left: 23px;
+}
+
 .header-button:hover {
     background-color: #3fa6cf;
     transition: all 1s;
@@ -53,9 +57,7 @@
 }
 
 .login-btn:hover {
-    background: #070D37;
-    border: 1px solid #39C6FD;
-    color: var(--sky-blue);
+    background-color: white;
 }
 
 .sign-btn {
