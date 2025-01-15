@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
 
+/* section-1 */
 .bg-image {
     background-image: url(../image/header-image.png);
     background-repeat: no-repeat;
@@ -39,26 +40,7 @@
     transition: all 1s;
 }
 
-/* section-3 */
-.section-3-h2 {
-    max-width: 632px;
-    font-family: "Oswald", serif;
-    margin-top: 192px;
-}
-
-.section-3-p {
-    max-width: 516px;
-    margin-bottom: 51px;
-}
-
-/* .login-btn {
-    color: #070D37;
-    padding: 8px 20px 8px 20px;
-    border-radius: 3.48px;
-    background-color: #39C6FD;
-    border: none;
-} */
-
+/* nav */
 .login-btn {
     width: 80px;
     height: 40px;
@@ -169,6 +151,58 @@
 
 .slick-slide>div {
     display: flex;
+}
+
+/* section-3 */
+.section-3-h2 {
+    max-width: 632px;
+    font-family: "Oswald", serif;
+    margin-top: 192px;
+}
+
+.section-3-p {
+    max-width: 516px;
+    margin-bottom: 51px;
+}
+
+/* .login-btn {
+    color: #070D37;
+    padding: 8px 20px 8px 20px;
+    border-radius: 3.48px;
+    background-color: #39C6FD;
+    border: none;
+} */
+/* footer */
+.footer-p {
+    max-width: 810px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Open Sans", serif;
+}
+
+.footer-h4 {
+    font-family: "Oswald", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.71px;
+    text-align: center;
+}
+
+.footer-bg {
+    background-image: url(../image/footer-bg-layer.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom-line {
+    max-width: 1439.61px;
+    border-top: 0.5px solid #39C6FD;
+}
+
+.footer-copyright-text {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Open Sans", serif;
+    margin-top: 12px !important;
 }
 
 @media (max-width:1130px) {
