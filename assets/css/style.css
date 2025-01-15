@@ -172,6 +172,82 @@
     background-color: #39C6FD;
     border: none;
 } */
+/* section-4 */
+.mt-198 {
+    margin-top: 198px;
+}
+
+.accordian-p {
+    font-family: "Open Sans", serif;
+}
+
+.accordion-top-left-layer {
+    top: -15%;
+    left: 50%;
+}
+
+.section-4-h2 {
+    font-family: "Oswald", serif;
+}
+
+.section-4-p {
+    font-family: "Open Sans", serif;
+}
+
+.accordian-para {
+    border-bottom: 2px solid #DDDDDF;
+}
+
+.courser-pointer {
+    cursor: pointer;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button::after {
+    background-image: url(/assets/image/svg/accordion-arrow-svg.svg) !important;
+}
+
+.accordion-item {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 2px solid #39C6FD !important;
+    box-shadow: none !important;
+}
+
+.accordion-body {
+    background: #070D37 !important;
+}
+
+.accordion-button {
+    background: #070D37 !important;
+    font-family: "Oswald", serif;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+}
+
+.pr-13 {
+    margin-right: 13px;
+}
+
+.mx-810 {
+    max-width: 810.34px;
+}
+
+.mt-52 {
+    margin-top: 52px;
+}
+
+.accordion-top-left-layer {
+    top: -15%;
+    left: -35%;
+}
+
 /* footer */
 .footer-p {
     max-width: 810px;
