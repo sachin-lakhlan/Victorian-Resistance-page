@@ -20,7 +20,8 @@
 </head>
 
 <body style="background-color: #070D37;">
-    <section class="bg-image min-vh-100 position-relative">
+    <section
+        class="bg-image min-vh-100 d-flex justify-content-center align-items-center align-content-center flex-column position-relative mb-190">
         <div>
             <img class="top-right-layer position-absolute " src="./assets/image/top-right-layer.png" alt="">
         </div>
@@ -34,7 +35,7 @@
                     <span class="menu-lines" id="transparent"></span>
                     <span class="menu-lines" id="rotats2"></span>
                 </div>
-                <ul id="nav-ul" class="list-unstyled d-flex justify-content-xl-between w-100 py-3 px-2 nav-link">
+                <ul id="nav-ul" class="list-unstyled d-flex justify-content-lg-between w-100 py-3 px-2 nav-link">
                     <li class="text-center pt-1">
                         <a class="fs-16 pl-23 fw-700 lh-23 sky-blue oswald-family text-decoration-none z-1 position-relative"
                             href="#">VICTORIAN RESISTANCE</a>
@@ -65,25 +66,37 @@
                     </li>
                 </ul>
             </nav>
-            <h1 class="header-h1 fs-80 fw-400 lh-118 text-center z-1">JOIN THE VICTORIAN RESISTANCE</h1>
-            <p class="header-p fw-400 fs-16 lh-21 text-center z-1">Defend the world, protect what's yours. Join the
-                Resistance!</p>
-            <div class="d-flex justify-content-center mt-5"><button
-                    class="header-button fs-20 fw-700 lh-29 text-center position-relative z-1">JOIN THE
-                    RESISTANT</button></div>
         </div>
-        <img class="botto-left-layer position-absolute w-100" src="./assets/image/botto-left-layer.png" alt="">
+        <div class="flex-grow-1 d-flex justify-content-center align-items-center">
+            <div class="container">
+                <h1 class="header-h1 fs-80 fw-400 lh-118 text-center z-1">JOIN THE VICTORIAN RESISTANCE</h1>
+                <p class="header-p fw-400 fs-16 lh-21 text-center z-1">Defend the world, protect what's yours. Join the
+                    Resistance!</p>
+                <div class="d-flex justify-content-center mt-5"><button
+                        class="header-button fs-20 fw-700 lh-29 text-center position-relative z-1">JOIN THE
+                        RESISTANT</button></div>
+            </div>
+        </div>
+        <img src="assets/image/botto-left-layer.png" alt="bottom-left-layer"
+            class="position-absolute header-bottom-left-layer">
+        <img src="assets/image/svg/layer.png" alt="layer-img" class="position-absolute layer w-100">
     </section>
     <!-- section-2 -->
-    <section class="min-vh-100 pt-190 position-relative">
+    <section
+        class=" pt-190 position-relative d-flex justify-content-center align-items-center align-content-center position-relative mb-178">
+        <img src="assets/image/svg/tringle.svg" alt="triangle-svg" class="position-absolute triangle-svg">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-5 justify-content-center d-flex">
-                    <img src="assets/image/mobile-map image.png" alt="mobile-map-image">
+                <div class="col-12 col-lg-5 position-relative">
+                    <div class="d-flex justify-content-center">
+                        <img class="z-1" src="assets/image/mobile-map image.png" alt="mobile-map-image">
+                        <img src="assets/image/svg/phone-bacground.png" alt="iphone-background-layer"
+                            class="position-absolute phone-bg-layer w-100 d-lg-block">
+                    </div>
                 </div>
                 <div class="col-12 col-lg-7">
-                    <h2 class="fw-400 fs-48 lh-71 text-white">ABOUT US</h2>
-                    <p class="fw-400 fs-16 lh-25 text-white">
+                    <h2 class="fw-400 fs-48 lh-71 text-white section-2-h2">ABOUT US</h2>
+                    <p class="fw-400 fs-16 lh-25 text-white section-2-p">
                         Ingress is an augmented reality game that turns the world around you into a battle, with
                         humankind's minds at stake. <br>
                         Play Ingress on the streets of Victoria. Meet agents who play in the areas you do and fight with
@@ -109,8 +122,9 @@
                 </div>
             </div>
         </div>
-        <img class="w-100 position-absolute section-1-bottom-layer" src="./assets/image/section-1-bottom-layer.png"
-            alt="section-1-bottom-layer">
+
+        <!-- <img class="w-100 position-absolute section-1-bottom-layer" src="./assets/image/section-1-bottom-layer.png"
+            alt="section-1-bottom-layer"> -->
         </div>
     </section>
     <!-- section-3 -->
@@ -131,7 +145,9 @@
         </div>
     </section>
     <!-- section-4 -->
-    <section class="bg-blue position-relative min-vh-100">
+    <section class="bg-blue position-relative min-vh-100 mb-225">
+        <div><img class="position-absolute accordion-top-tringle" src="assets/image/faq-tringle.png" alt="">
+        </div>
         <h2 class="fw-400 fs48 lh-71 text-center text-white section-4-h2 mt-198">FAQs</h2>
         <p class="fw-400 fs-16 lh-21 mx-680 text-center mx-auto pb-77 section-4-p text-white">Porta maecenas consequat
             sed neque
@@ -139,93 +155,122 @@
             eleifend fusce cursus amet. Turpis enim sed pharetra tempus
             ullamcorper mauris mauris facilisis.</p>
         <div>
-            <!-- <img class="position-absolute accordion-top-left-layer z-1" src="./assets/image/faq-top-left-image.png"
-                alt="accordion-top-left-layer"> -->
-        </div>
-        <div class="container">
-            <div class="justify-content-center align-items-center d-flex">
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item mx-946">
-                        <h2 class="accordion-header ">
-                            <button class="accordion-button fs-20 fw-700 lh-29 text-white" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                                aria-controls="collapseOne">
-                                <span class="pr-13">Q1.</span> Aliquam magnis sed arcu rutrum quisque sed aliquet
-                                vestibulum?
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p class="accordian-p fw-400 fs-16 lh-21 text-white mx-810">Volutpat etiam tincidunt leo
-                                    amet pulvinar. Adipiscing vestibulum enim ornare
-                                    vestibulum. Mauris sit hendrerit interdum neque mattis enim eget. Quam lorem id nisi
-                                    eget nisl tortor semper elit. Id aliquam morbi ac potenti. Egestas ac tellus amet
-                                    suspendisse mattis dictum. Ac viverra auctor a vitae dolor nisi.</p>
+            <div class="container">
+                <div class="justify-content-center align-items-center d-flex">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mx-946">
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button fs-20 fw-700 lh-29 text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    <span class="pr-13">Q1.</span> Aliquam magnis sed arcu rutrum quisque sed aliquet
+                                    vestibulum?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="accordian-p fw-400 fs-16 lh-21 text-white mx-810">Volutpat etiam tincidunt
+                                        leo
+                                        amet pulvinar. Adipiscing vestibulum enim ornare
+                                        vestibulum. Mauris sit hendrerit interdum neque mattis enim eget. Quam lorem id
+                                        nisi
+                                        eget nisl tortor semper elit. Id aliquam morbi ac potenti. Egestas ac tellus
+                                        amet
+                                        suspendisse mattis dictum. Ac viverra auctor a vitae dolor nisi.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item mx-946 mt-52">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fs-20 fw-700 lh-29  text-white" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                aria-controls="collapseTwo">
-                                <span class="pr-13">Q2.</span> A semper enim quis non aenean adipiscing lectus neque?
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p class="accordian-p fw-400 fs-16 lh-21 text-white mx-810">Volutpat etiam tincidunt leo
-                                    amet pulvinar. Adipiscing vestibulum enim ornare
-                                    vestibulum. Mauris sit hendrerit interdum neque mattis enim eget. Quam lorem id nisi
-                                    eget nisl tortor semper elit. Id aliquam morbi ac potenti. Egestas ac tellus amet
-                                    suspendisse mattis dictum. Ac viverra auctor a vitae dolor nisi.</p>
+                        <div class="accordion-item mx-946 mt-52">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-20 fw-700 lh-29  text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    <span class="pr-13">Q2.</span> A semper enim quis non aenean adipiscing lectus
+                                    neque?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="accordian-p fw-400 fs-16 lh-21 text-white mx-810">Volutpat etiam tincidunt
+                                        leo
+                                        amet pulvinar. Adipiscing vestibulum enim ornare
+                                        vestibulum. Mauris sit hendrerit interdum neque mattis enim eget. Quam lorem id
+                                        nisi
+                                        eget nisl tortor semper elit. Id aliquam morbi ac potenti. Egestas ac tellus
+                                        amet
+                                        suspendisse mattis dictum. Ac viverra auctor a vitae dolor nisi.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item mx-946 mt-52">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fs-20 fw-700 lh-29 text-white" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                aria-controls="collapseThree">
-                                <span class="pr-13">Q3.</span>Consectetur faucibus velit aliquam dictum vestibulum
-                                sollicitudinlla dapibus consectetur suscipit1?
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p class="accordian-p fw-400 fs-16 lh-21 text-white mx-810">Volutpat etiam tincidunt leo
-                                    amet pulvinar. Adipiscing vestibulum enim ornare
-                                    vestibulum. Mauris sit hendrerit interdum neque mattis enim eget. Quam lorem id nisi
-                                    eget nisl tortor semper elit. Id aliquam morbi ac potenti. Egestas ac tellus amet
-                                    suspendisse mattis dictum. Ac viverra auctor a vitae dolor nisi.</p>
+                        <div class="accordion-item mx-946 mt-52">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-20 fw-700 lh-29 text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    <span class="pr-13">Q3.</span>Consectetur faucibus velit aliquam dictum vestibulum
+                                    sollicitudinlla dapibus consectetur suscipit1?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="accordian-p fw-400 fs-16 lh-21 text-white mx-810">Volutpat etiam tincidunt
+                                        leo
+                                        amet pulvinar. Adipiscing vestibulum enim ornare
+                                        vestibulum. Mauris sit hendrerit interdum neque mattis enim eget. Quam lorem id
+                                        nisi
+                                        eget nisl tortor semper elit. Id aliquam morbi ac potenti. Egestas ac tellus
+                                        amet
+                                        suspendisse mattis dictum. Ac viverra auctor a vitae dolor nisi.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item mx-946 mt-52">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fs-20 fw-700 lh-29 text-white" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                                aria-controls="collapseFour">
-                                <span class="pr-13">Q4.</span>Volutpat cras natoque suscipit in semisus euismod?
-                            </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p class="accordian-p fw-400 fs-16 lh-21 text-white mx-810">Volutpat etiam tincidunt leo
-                                    amet pulvinar. Adipiscing vestibulum enim ornare
-                                    vestibulum. Mauris sit hendrerit interdum neque mattis enim eget. Quam lorem id nisi
-                                    eget nisl tortor semper elit. Id aliquam morbi ac potenti. Egestas ac tellus amet
-                                    suspendisse mattis dictum. Ac viverra auctor a vitae dolor nisi.</p>
+                        <div class="accordion-item mx-946 mt-52">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-20 fw-700 lh-29 text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    <span class="pr-13">Q4.</span>Volutpat cras natoque suscipit in semisus euismod?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="accordian-p fw-400 fs-16 lh-21 text-white mx-810">Volutpat etiam tincidunt
+                                        leo
+                                        amet pulvinar. Adipiscing vestibulum enim ornare
+                                        vestibulum. Mauris sit hendrerit interdum neque mattis enim eget. Quam lorem id
+                                        nisi
+                                        eget nisl tortor semper elit. Id aliquam morbi ac potenti. Egestas ac tellus
+                                        amet
+                                        suspendisse mattis dictum. Ac viverra auctor a vitae dolor nisi.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+    </section>
+    <!-- section-5 -->
+    <section class="min-vh-100 d-flex justify-content-center align-items-center position-relative section-5-bg">
+        <div class="container section-5-border">
+            <!-- <div class="section-5-border"> -->
+            <h2 class="section-5-h2 fw-400 fs-48 lh-71 text-white">JOIN THE RESISTANCE</h2>
+            <p class="section-5-p fw-400 fs-16 lh-21 text-white">Volutpat etiam tincidunt leo amet pulvinar.
+                Adipiscing
+                vestibulum enim ornare
+                vestibulum. Mauris sit
+                hendrerit interdum neque mattis enim egenisi.</p>
+            <button class="section-5-btn fw-700 fs-16 lh-23">JOIN NOW</button>
         </div>
+        <img class="position-absolute section-5-mobile-image" src="./assets/image/iPhone 11 Pro Max Mockup.png" alt="">
+        </div>
+        <div><img class="position-absolute footer-tringle" src="assets/image/footer-tringle.png" alt=""></div>
     </section>
     <!-- footer -->
-    <footer class="footer-bg ">
+    <footer class="footer-bg position-relative">
         <div class="container">
             <div>
                 <img class="mx-auto d-flex m-5" src="assets/image/svg/logo.svg" alt="footer-logo">
@@ -236,13 +281,14 @@
                     vestibulum.
                     Mauris sit
                     hendrerit interdum neque mattis enim eget. Quasi.</p>
-                <div class="d-flex justify-content-center gap-5 mt-5 mb-5 text-white">
-                    <h4 class="footer-h4">PA02-SIERRA-11 SCOREBOARD</h4>
-                    <h4 class="footer-h4">SMURFLING GUIDE</h4>
+                <div class="d-flex justify-content-center gap-5 mt-5 mb-5 text-white fs-16 fw-400 lh-23">
+                    <a class="footer-h4 text-decoration-none text-white fs-16 fw-400 lh-23" href="#">PA02-SIERRA-11
+                        SCOREBOARD</a>
+                    <a class="footer-h4 text-decoration-none text-white" href="#"> SMURFLING GUIDE</a>
                 </div>
             </div>
         </div>
-        <div class="bottom-line d-flex justify-content-center align-items-center"></div>
+        <div class="bottom-line d-flex justify-content-center align-items-center "></div>
         <div class="d-flex mb-3 justify-content-center align-items-center">
             <img src="./assets/image/svg/footer-icon-svg.svg" alt="copyright-svg">
             <p class="fw-400 fs-12 lh-16 grey footer-copyright-text">copyright2025victorianresistance</p>
