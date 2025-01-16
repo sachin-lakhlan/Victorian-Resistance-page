@@ -381,6 +381,10 @@
         display: none;
     }
 
+    .gap-53 {
+        gap: 0;
+    }
+
     .nav-link {
         display: flex !important;
         flex-direction: column;
