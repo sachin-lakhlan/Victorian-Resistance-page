@@ -19,7 +19,6 @@
 }
 
 .header-h1 {
-    color: rgba(255, 255, 255, 1);
     font-family: "Oswald", serif;
     max-width: 607px;
     text-align: center;
@@ -28,10 +27,6 @@
 
 .pt-190 {
     padding-top: 190px;
-}
-
-.header-p {
-    color: rgba(255, 255, 255, 1);
 }
 
 .header-button {

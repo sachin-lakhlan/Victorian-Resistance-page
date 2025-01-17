@@ -15,7 +15,7 @@
     /* ----color----  */
     --sky-blue: #39C6FD;
     --dark-blue: #070D37;
-
+    --white-colour: #FFFFFF;
 }
 
 .font-oswald {
@@ -27,11 +27,11 @@
 }
 
 .fs-16 {
-    font-size: var(--fs-16) !important;
+    font-size: var(--fs-16);
 }
 
 .fs-20 {
-    font-size: var(--fs-20) !important;
+    font-size: var(--fs-20);
 }
 
 .fs-48 {
@@ -39,46 +39,50 @@
 }
 
 .fs-80 {
-    font-size: var(--fs-80) !important;
+    font-size: var(--fs-80);
 }
 
 /* ----weight---- */
 .fw-400 {
-    font-weight: var(--fw-400) !important;
+    font-weight: var(--fw-400);
 }
 
 .fw-700 {
-    font-weight: var(--fw-700) !important;
+    font-weight: var(--fw-700);
 }
 
 /* ----line-height----  */
 .lh-21 {
-    line-height: var(--lh-21) !important;
+    line-height: var(--lh-21);
 }
 
 .lh-23 {
-    line-height: var(--lh-23) !important;
+    line-height: var(--lh-23);
 }
 
 .lh-25 {
-    line-height: var(--lh-25) !important;
+    line-height: var(--lh-25);
 }
 
 .lh-29 {
-    line-height: var(--lh-29) !important;
+    line-height: var(--lh-29);
 }
 
 .lh-71 {
-    line-height: var(--lh-71) !important;
+    line-height: var(--lh-71);
 }
 
 .lh-118 {
-    line-height: var(--lh-118) !important;
+    line-height: var(--lh-118);
 }
 
 /* ----color----  */
 .sky-blue {
-    color: var(--sky-blue) !important;
+    color: var(--sky-blue);
+}
+
+.bg-sky-blue {
+    color: var(--sky-blue);
 }
 
 .dark-blue {
@@ -87,4 +91,8 @@
 
 .bg-blue {
     background-color: var(--dark-blue);
+}
+
+.white-colour {
+    color: var(--white-colour);
 }
