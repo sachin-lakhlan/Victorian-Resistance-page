@@ -410,6 +410,9 @@
     margin-top: 12px !important;
 }
 
+/* responsive */
+@media (max-width:330px) {}
+
 @media (max-width:991.98px) {
     .bug {
         display: none;
@@ -454,6 +457,16 @@
     :root {
         --fs-80: 60px !important;
         --lh-118: normal !important;
+    }
+
+    .p-12 {
+        padding: 12px;
+    }
+}
+
+@media (max-width:990.99px) {
+    .p-12 {
+        padding: 12px;
     }
 }
 
