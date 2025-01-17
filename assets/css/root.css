@@ -1,4 +1,6 @@
 :root {
+    --font-oswald: "Oswald", serif;
+    --font-opensans: "Open Sans", serif;
     --fs-16: 16px;
     --fs-20: 20px;
     --fs-48: 48px;
@@ -19,6 +21,14 @@
 
 }
 
+.font-oswald {
+    font-family: var(--font-oswald);
+}
+
+.font-opensans {
+    font-family: var(--font-opensans);
+}
+
 .fs-16 {
     font-size: var(--fs-16) !important;
 }
@@ -28,7 +38,7 @@
 }
 
 .fs-48 {
-    font-size: var(--fs-48) !important;
+    font-size: var(--fs-48);
 }
 
 .fs-80 {
