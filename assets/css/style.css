@@ -47,13 +47,14 @@
 }
 
 .header-button:hover {
-    background-color: #3fa6cf;
+    background-color: white;
     transition: all 1s;
 }
 
 /* nav */
 .login-btn {
     padding: 8px 20px 8px 20px;
+    color: #070D37;
     border-radius: 3.48px;
     background: #39C6FD;
     border: none;
@@ -94,8 +95,16 @@
     gap: 53px;
 }
 
+.gap-30 {
+    gap: 30px;
+}
+
 .mx-680 {
     max-width: 680px;
+}
+
+.max-w-1140 {
+    max-width: 1140px !important;
 }
 
 .menu-lines {
@@ -220,7 +229,7 @@
     background-image: url("../image/svg/Line-svg.svg") !important;
     background-size: contain;
     background-position: center;
-    transform: rotate(0);
+    transform: rotate(0) !important;
 }
 
 .accordion-button::after {
@@ -296,53 +305,20 @@
     background-size: cover;
 }
 
-.section-5-h2 {
-    padding-top: 65px;
-    padding-left: 73px;
-
-}
-
-.section-5-p {
-    max-width: 661px;
-    padding-left: 73px;
-}
-
-.section-5-btn {
-    color: #070D37;
-    padding: 11px 27px 11px 27px;
-    border-radius: 4px;
-    background-color: #39C6FD;
-    border: none;
-    margin-bottom: 89px;
-    margin-left: 73px;
-    margin-top: 60px;
-}
-
-.section-5-btn:hover {
-    background-color: #3fa6cf;
-    transition: all 1s;
-}
-
-.section-5-border {
-    border-radius: 10px;
-    border: 3px solid #39C6FD;
-    background-color: #070D37;
-}
-
-.section-5-mobile-image {
-    right: 10%;
-}
-
 .join-btn {
     padding: 11px 27px 11px 27px;
     border-radius: 4px;
+    color: #070D37;
     background: #39C6FD;
     margin-top: 55px;
 }
 
 .join-btn:hover {
-    color: white;
+    background-color: white;
+    transition: all 1s;
 }
+
+
 
 .box {
     max-width: 1140px;
@@ -462,11 +438,23 @@
     .p-12 {
         padding: 12px;
     }
+
+    .mt-60 {
+        margin-top: 20px;
+    }
+
+    .pb-77 {
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width:990.99px) {
     .p-12 {
         padding: 12px;
+    }
+
+    .mb-89 {
+        margin-bottom: 0;
     }
 }
 
